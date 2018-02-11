@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+
+int main()
+
+{ 
+    
+float hours;
+    
+float wage;
+    
+printf("enter the hours per day\n");
+    
+scanf("%f",&hours);
+    
+printf("enter the wage per hour\n");
+    
+scanf("%f",&wage);
+    f
+loat week=7*hours*wage;
+    
+printf("weekly wage : %f\n",week);
+
+}

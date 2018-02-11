@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+
+int main()
+
+{
+    
+printf("\t % right\t grade\n\t-------\t\t-----\n");
+    
+printf("\t0 - 55 \t        -f\n\t55 - 60 \t F\n\t61 - 70 \t D \n \t71 - 80 \t C\n\t81 - 90 \t B\n\t91 - 100  \t A\n");
+    
+printf("\tlast digit \t modifier\n\t---------- \t--------\n\t1-3\t\t -\n\t4-7\t\t<blank>\n\t8-0\t\t +\n\t9 \t \t *");
+   
+ 
+}
+

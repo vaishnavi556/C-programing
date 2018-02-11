@@ -1,0 +1,51 @@
+#include <stdio.h>
+
+
+int main()
+
+{  
+   
+ int i;
+    
+char name[10];
+   
+ char address[10];
+  
+  int age;
+  
+  float height;
+   
+ printf("enter name");
+  
+  for(i=0;i<10;i++)
+    
+scanf("%c",&name[i]);
+   
+ printf("enter address");
+   
+ for(i=0;i<10;i++)
+   
+ scanf("%c",&address[i]);
+  
+  printf("enter age");
+    
+scanf("%d",&age);
+   
+ printf("enter the height in feet");
+   
+ scanf("%f",&height);
+ 
+   for(i=0;i<10;i++)
+   
+ printf("name :%c\n",name[i]);
+   
+  for(i=0;i<10;i++)
+  
+  printf("address :%c\n",address[i]);
+   
+ printf("age :%d\n",age);
+  
+  printf("height:%f",height);
+
+}
+

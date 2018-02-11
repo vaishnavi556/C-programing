@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+
+int main()
+
+{  
+    
+int n1=10;
+   
+ int n2=20;
+   
+ int n3=30;
+   
+ int sum=n1+n2+n3;
+   
+ int largest=(n1>n2)?((n1>n3)?n1:n2):((n2>n3)?n2:n3);
+    
+printf("sum :%d\n",sum);
+    
+printf("largest:%d",largest);
+
+}

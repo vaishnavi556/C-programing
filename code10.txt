@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+
+
+int main()
+
+
+{
+    
+int min,hrs;
+    
+printf("enter hours") ;
+    
+scanf("%d",&hrs);
+    
+printf("enter minutes");
+    
+scanf("%d",&min);
+    
+printf("%d hrs %d mins:%d minutes",hrs,min,hrs*60+min);
+
+}
